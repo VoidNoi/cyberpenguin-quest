@@ -13,16 +13,12 @@
   src: url("./fonts/SerenityOS-Emoji.ttf") format("truetype");
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
 body {
   background-color: #24273a;
   color: #cad3f5;
   font-family: blexmono, sans-serif;
   font-size: 16px;
+  margin: 0;
 }
 
 a {
@@ -33,6 +29,24 @@ a {
 
 a:hover {
   text-decoration: underline solid currentColor;
+}
+
+header {
+  margin: auto 0;
+  text-align: center;
+}
+
+#preamble {
+  border-bottom: 1px solid #8087a2;
+}
+
+nav {
+  padding: 10px 0;
+  background-color: #1e2030;
+}
+
+.nav-link {
+  font-size: 18px;
 }
 
 .emoji {
@@ -57,6 +71,7 @@ code {
 
 .content {
   margin: 0 auto;
+  padding: 0 8px;
   max-width: 720px;
 }
 

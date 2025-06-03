@@ -37,6 +37,3 @@ Texto explicando bash script
 #+begin_src bash
   cd -r papa patata | grep gklfjglfkdjgkfjdgkldfjglkfdjglkfdjgkljdfgiorjeonmvkclxvoieorigjkejioejkfdjglreijglkergfdklggfkldjgkjfd 
 #+end_src
-
-#+ATTR_HTML: :width 200px
-[[./images/brgm.png]]

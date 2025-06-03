@@ -19,6 +19,17 @@
       org-html-head-include-default-style nil
       org-html-htmlize-output-type 'css        ;;disables highlighting by htmlize
       org-html-head "<link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\" />"
+      org-html-preamble t
+      org-html-preamble-format '(("en" "
+<header>
+<h1>This is a header</h1>
+<nav>
+<a class='nav-link' href=''>Home</a>
+<a class='nav-link' href='guides'>Guides</a>
+<a class='nav-link' href='recipes'>Recipes</a>
+<a class='nav-link' href='about'>About</a>
+</nav>
+</header>"))
       )
 
 ;; Define the publishing project
