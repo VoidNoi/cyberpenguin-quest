@@ -31,14 +31,14 @@
              :publishing-directory "./public"
              :with-author nil
              :with-creator nil
-             :with-title nil
+             :with-title t
              :with-toc nil
              :section-numbers nil
              :time-stamp-file nil
              )
         ("cyberpenguin-quest:assets"
          :base-directory "./assets"
-         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|woff2\\|ttf\\|zip"
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|woff2\\|ttf\\|otf\\|zip"
          :publishing-directory "./public"
          :recursive t
          :publishing-function org-publish-attachment)

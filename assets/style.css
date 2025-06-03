@@ -1,20 +1,126 @@
-body {
-  background-color:#191724;
-  color: #e0def4;
+@font-face {
+  font-family: blexmono;
+  src: url("./fonts/BlexMonoNerdFont-Medium.ttf") format("truetype");
 }
 
-pre {
-  margin: 0;
+@font-face {
+  font-family: firamono;
+  src: url("./fonts/FiraMonoNerdFont-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: serenityos-emoji;
+  src: url("./fonts/SerenityOS-Emoji.ttf") format("truetype");
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+body {
+  background-color: #24273a;
+  color: #cad3f5;
+  font-family: blexmono, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #8aadf4;
+  text-decoration: underline solid transparent;
+  transition: text-decoration 0.5s ease;
+}
+
+a:hover {
+  text-decoration: underline solid currentColor;
+}
+
+.emoji {
+  font-family: serenityos-emoji, blexmono, sans-serif;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+pre, code {
+  font-family: firamono, monospace;
+  font-size: 14px;
+}
+
+code {
+  color: #a6da95; 
+  background-color: #181926;
+  border-radius: 5px;
+  padding: 2px;
 }
 
 .content {
   margin: 0 auto;
-  width: 45rem;
+  max-width: 720px;
+}
+
+.src {
+  margin: 0;
+  padding: 1em;
 }
 
 .org-src-container {
-  background-color: #26233a;
+  background-color: #181926;
   border-radius: 5px;
-  padding: 5px;
   overflow-x: auto;
+  scrollbar-color: #363a4f #181926;
+  height:fit-content;
+}
+
+.org-type {
+  color: #eed49f;
+}
+
+.org-keyword {
+  color: #c6a0f6;
+}
+
+.org-function-name {
+  color: #8aadf4;
+}
+
+.org-string {
+  color: #a6da95; 
+}
+
+.org-builtin {
+  color: #ed8796;
+}
+
+.org-operator {
+  color: #7dc4e4;
+}
+
+.org-constant {
+  color: #f5a97f;
+}
+
+h1 {
+  color: #ed8796;
+}
+
+h2 {
+  color: #f5a97f;
+}
+
+h3 {
+  color: #eed49f;
+}
+
+h4 {
+  color: #a6da95;
+}
+
+h5 {
+  color: #7dc4e4;
+}
+
+h6 {
+  color: #b7bdf8;
 }

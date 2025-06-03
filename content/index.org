@@ -1,1 +1,42 @@
-#+TITLE: Index
+#+TITLE: CyberPenguin Quest
+
+* header1
+** header2
+*** header3
+#+begin_src emacs-lisp
+  (setq 'potato (patata papa))
+#+end_src
+
+Texto para explicar codigo en c++
+#+begin_src c++
+  void patatas(int patata1, String patata2) {
+    char papa = 'p';
+    const int diablo = "gfdg";
+    int numerodepapas = 2;
+    if (numerodepapas > 2) {
+      papa = 'a';
+    }
+  }
+#+end_src
+_underline_
+*bold*
+~code~
+/italic/
+=verbatim=
++strike-through+
+[[https://github.com/VoidNoi][link]]
+#+begin_emoji
+Pingüino 🐧 pingüino
+#+end_emoji
+#+begin_src python
+  class RubberStamp:
+      def set_ui_text(self, text, type=None):
+#+end_src
+
+Texto explicando bash script
+#+begin_src bash
+  cd -r papa patata | grep gklfjglfkdjgkfjdgkldfjglkfdjglkfdjgkljdfgiorjeonmvkclxvoieorigjkejioejkfdjglreijglkergfdklggfkldjgkjfd 
+#+end_src
+
+#+ATTR_HTML: :width 200px
+[[./images/brgm.png]]
